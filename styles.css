@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+}
+
+.container ul li:hover .drop-down-menu{
+	display:block;
+	position:absolute;
+	background-color:white;
+	color:#616972;
+	border:1px solid #616972;
+	
+}
+
+.drop-down-menu ul{
+	display:none;
+	
+}
